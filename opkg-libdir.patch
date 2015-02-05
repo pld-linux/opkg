@@ -1,0 +1,10 @@
+--- opkg-0.2.0/libopkg.pc.in.orig	2013-08-15 12:47:21.000000000 +0200
++++ opkg-0.2.0/libopkg.pc.in	2014-12-24 08:48:31.245777407 +0100
+@@ -1,6 +1,6 @@
+ prefix=@prefix@
+ exec_prefix=${prefix}
+-libdir=${exec_prefix}/lib
++libdir=@libdir@
+ includedir=${prefix}/include
+ 
+ Name: libopkg
